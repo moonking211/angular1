@@ -1,0 +1,222 @@
+@media screen and (min-width: 1620px) {
+  .row.shift-up {
+    > * {
+      margin-top: -573px;
+    }
+  }
+}
+
+@media screen and (max-width: 1620px) {
+  .card.feed-panel.large-card {
+    height: 824px;
+  }
+}
+
+.user-stats-card {
+  .card-title {
+    padding: 0 0 15px;
+  }
+}
+
+.blurCalendar {
+  height: 475px;
+}
+
+
+
+
+.short-side {
+    padding: 10px;
+    width: 100%;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+.edbox {
+    width: 280px;
+    height: 170px;
+    min-height: 170px;
+    min-width: 250px;
+    background-color: #FAFAFA;
+    border: 1px solid #E0E0E0;
+    margin: 5px;
+    display: table-cell;
+}
+.edbox .header {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E0E0E0;
+    display: inline-table;
+}
+.edbox .title2 {
+    font-weight: bold;
+    color: #000;
+    margin-left: 8px;
+}
+.edbox .title3 {
+    font-weight: lighter;
+    color: #000;
+    margin-left: 8px;
+}
+.edbox .title4 {
+    font-family: 'segoe ui';
+    font-weight: lighter;
+    color: #000;
+    margin-left: 8px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.edbox .header .icon {
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    background-color: #ea6153;
+    float: right;
+    margin-right: 20px;
+    margin: 5px;
+    color: #fff;
+    font-size: 30px;
+}
+.edbox .header .icon i {
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+}
+.edbox .header .header-title {
+    padding-left: 5px;
+    font-size: large;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: lighter;
+    float: left;
+    color: black;
+}
+.edbox .header .green {
+    background-color: #27ae60;
+}
+.edbox .header .blue {
+    background-color: #2980b9;
+}
+.edbox .header .pink {
+    background-color: #E91E63;
+}
+.edbox .header .red {
+    background-color: #ea6153;
+}
+.edbox .header .purple {
+    background-color: #7B1FA2;
+}
+.edbox .header .lime {
+    background-color: #00C853;
+}
+
+.short-side {
+    padding: 10px;
+    width: 100%;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+
+.dicon {
+    width: 100px;
+    height: 100px;
+    background-color: none;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    margin: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.dicon i {
+    font-size: 28px;
+    color: cornsilk;
+    left: 50%;
+}
+.dicon span {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-break: break-word;
+    color: black;
+    display: block;
+    text-decoration: none;
+    -webkit-transition: all .2s ease-in;
+}
+
+.notification {
+    -webkit-display: flex;
+    display: flex;
+    margin: 0 auto 10px auto;
+    width: 90%;
+    min-height: 70px;
+    vertical-align: middle;
+}
+.notification.green .icon {
+    background: #27ae60;
+    border-bottom-color: #1e8449;
+}
+.notification .icon {
+    background: #7f8c8d;
+    border-bottom-color: #667273;
+}
+.notification .icon {
+    padding: 15px 0 0 0;
+    width: 70px;
+    border-radius: 0 3px 3px 0;
+    text-align: center;
+    font-size: 32px;
+    color: #FFFFFF;
+    border-bottom: 3px solid;
+}
+.notification .info {
+    color: black;
+    -webkit-flex: 1;
+    flex: 1;
+    padding: 10px 10px 0 10px;
+    background: #ecf0f1;
+    border-radius: 3px 0 0 3px;
+    border-bottom: 3px solid #c0cdd1;
+}
+.notification .info h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+    font-size: 19px;
+    color: #111;
+}
+.t_number {
+    background-color: #5fcf80;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 1.1em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 100%;
+}
+
+.dicon:hover span{
+    background-color:#90A4AE;
+    opacity:0.9;
+    border-radius:8px 8px 8px 8px;
+    text-decoration:none;
+}
