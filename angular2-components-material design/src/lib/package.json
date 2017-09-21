@@ -1,0 +1,42 @@
+{
+  "name": "@angular-mdl/core",
+  "version": "4.0.8",
+  "license": "MIT",
+  "description": "Angular components, directives and styles based on material design lite https://getmdl.io.",
+  "homepage": "http://mseemann.io/angular2-mdl/",
+  "keywords": [
+    "angular 2 4",
+    "angular2",
+    "angular4",
+    "angular",
+    "material",
+    "material design",
+    "material design lite",
+    "components",
+    "typescript",
+    "button",
+    "card",
+    "chips",
+    "dialog",
+    "snackbar",
+    "layouts",
+    "reactive forms",
+    "tables",
+    "tabs",
+    "test fields",
+    "toggle"
+  ],
+  "main": "./bundle/core.js",
+  "module": "./components/index.js",
+  "typings": "./components/index.d.ts",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mseemann/angular2-mdl.git"
+  },
+  "peerDependencies": {
+    "@angular/core": ">=4.0.0 <5.0.0",
+    "@angular/common": ">=4.0.0 <5.0.0",
+    "@angular/forms": ">=4.0.0 <5.0.0"
+  }
+}
